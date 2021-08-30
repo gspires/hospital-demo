@@ -1,0 +1,11 @@
+.service {
+    height: 250px;
+    width: 25vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.service p, h3 {
+    padding: 5px 20px;
+}

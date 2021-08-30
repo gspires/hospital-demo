@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 30px;
+    background-color:rgb(8, 2, 41);
+    line-height: 2rem;
+    color: silver;
+}
+header p{
+    cursor: pointer;
+}
+header div{
+    display: flex;
+}
+header ul{
+    display: flex;
+}
+header li{
+    padding: 0 5px;
+}
+@media only screen and (max-width: 768px) {
+    header{
+        justify-content: center;
+        flex-direction: column;
+    }
+}

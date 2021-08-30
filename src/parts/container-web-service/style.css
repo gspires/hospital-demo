@@ -1,0 +1,5 @@
+.contaier-web-service{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,15 @@
+.bloco2{
+    width: 23vw;
+    height: 320px;
+    background-color: rgb(245, 245, 245);
+}
+.bloco2 h3, p{
+    padding: 5px 0;
+}
+.img{
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+    height: 50%;
+}

@@ -1,0 +1,44 @@
+.container-menu{
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+}
+.background{
+    background-image: url('../../img/recepcao.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.background h1, .icon{
+    font-size: 3rem;
+}
+.background button, .icon{
+    margin: 20px;
+}
+.background button{
+    background-color: transparent;
+    line-height: 2rem;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .container-menu{
+        height: 165vh;
+    }
+    .background{
+        height: 100vh;
+        margin-top: 0;
+    }
+}

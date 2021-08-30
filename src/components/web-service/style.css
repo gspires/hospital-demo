@@ -1,0 +1,27 @@
+.web-service{
+    display: flex;
+    width: 26%;
+}
+.web-service p {
+    color: rgb(80, 80, 80);
+}
+.web-service .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 10px;
+}
+.web-service .text{
+   padding: 10px;
+   margin-left: 10px;
+}
+.border-bottom{
+    border-bottom: 1px solid rgb(80, 80, 80);
+}
+.border-right{
+    border-right: 1px solid rgb(80, 80, 0);
+}
+.tam{
+    font-size: 50px;
+}

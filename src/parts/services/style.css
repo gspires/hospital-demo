@@ -1,0 +1,7 @@
+.blocos {
+    display: flex;
+   }
+.icon-service{
+    font-size: 35px;
+    margin: 0 0 5px 20px;
+}

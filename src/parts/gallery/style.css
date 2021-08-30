@@ -1,0 +1,11 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.gallery div{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+}

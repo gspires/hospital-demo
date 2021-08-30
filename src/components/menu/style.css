@@ -1,0 +1,31 @@
+.menu{
+  background-color: #34ABB1;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  position:relative;
+  
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.menu li{
+    padding: 1rem;
+    border-left: rgb(241, 238, 238) solid 0.1px;
+}
+.border-right{
+  border-right: rgb(241, 238, 238) solid 0.1px;;
+}
+@media only screen and (max-width: 768px) {
+  .menu{
+    width: 100%;
+  }
+  .menu ul{
+    flex-direction: column;
+  }
+  .menu li{
+    border-bottom: rgb(241, 238, 238) solid 0.1px;
+  }
+}
