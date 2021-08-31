@@ -35,10 +35,13 @@
 }
 @media only screen and (max-width: 768px) {
     .container-menu{
-        height: 165vh;
+        height: 160vh;
     }
     .background{
         height: 100vh;
         margin-top: 0;
+    }
+    .background div{
+        text-align: center;
     }
 }

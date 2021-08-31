@@ -25,3 +25,12 @@
 .tam{
     font-size: 50px;
 }
+@media only screen and (max-width: 768px) {
+    .web-service{
+        width: 100%;
+        border-bottom: 1px solid rgb(80, 80, 0);
+    }
+    .border-right{
+        border-right: none;
+    }
+}

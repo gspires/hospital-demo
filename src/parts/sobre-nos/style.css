@@ -7,3 +7,9 @@
 .sobre-nos img{
     overflow: hidden;
 }
+@media only screen and (max-width: 768px) {
+    .sobre-nos{
+        flex-direction: column;
+        width: 100%;
+    }
+}

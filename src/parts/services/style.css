@@ -5,3 +5,8 @@
     font-size: 35px;
     margin: 0 0 5px 20px;
 }
+@media only screen and (max-width: 768px) {
+    .blocos {
+        flex-direction: column;
+    }
+}
